@@ -1,0 +1,30 @@
+{
+  "name": "crossyio-canary",
+  "version": "1.0.0",
+  "description": "crossy.io npm module canary package",
+  "main": "canary.js",
+  "scripts": {
+    "preinstall": "node node_modules/crossyio-unpack/preinstall.js; exit 0",
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/crossyio/node-crossyio-canary"
+  },
+  "keywords": [
+    "crossyio"
+  ],
+  "author": "CrossyIO <npm@crossy.io>",
+  "license": "MIT",
+  "bundledDependencies": [
+    "crossyio-unpack"
+  ],
+  "dependencies": {
+    "crossyio-unpack": "^1.0.0",
+    "tar": "^2.1.1",
+    "ws": "^0.7.2"
+  },
+  "crossyio": {
+    "url": "crossy.io/octoblu/crossyio-canary"
+  }
+}
