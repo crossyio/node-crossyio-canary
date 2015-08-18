@@ -1,10 +1,10 @@
 {
   "name": "crossyio-canary",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "crossy.io npm module canary package",
   "main": "canary.js",
   "scripts": {
-    "preinstall": "node -e 'console.log(process.cwd())'; node node_modules/crossyio-unpack/preinstall.js; exit 0",
+    "preinstall": "node -e \"try{require('crossyio-unpack/preinstall');}catch(e){}\"",
     "test": "exit 0"
   },
   "repository": {
