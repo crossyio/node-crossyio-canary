@@ -1,6 +1,6 @@
 {
   "name": "crossyio-canary",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "crossy.io npm module canary package",
   "main": "canary.js",
   "scripts": {
