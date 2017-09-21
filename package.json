@@ -21,7 +21,7 @@
   ],
   "dependencies": {
     "crossyio-unpack": "^1.0.0",
-    "ws": "^0.7.2"
+    "ws": "^3.2.0"
   },
   "crossyio": {
     "url": "crossy.io/crossyio/crossyio-canary"
